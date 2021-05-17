@@ -55,12 +55,12 @@
     <Compile Include="Controladores\CCompra.cs" />
     <Compile Include="Controladores\CEstilos.cs" />
     <Compile Include="Controladores\CProducto.cs" />
+    <Compile Include="Controladores\CUsuario.cs" />
     <Compile Include="Controladores\CVenta.cs" />
     <Compile Include="Entidades\Compra.cs" />
     <Compile Include="Entidades\DetallesCompras.cs" />
     <Compile Include="Entidades\DetallesVentas.cs" />
     <Compile Include="Entidades\Estiloss.cs" />
-    <Compile Include="Entidades\Papels.cs" />
     <Compile Include="Entidades\Producto.cs" />
     <Compile Include="Entidades\Usuarioss.cs" />
     <Compile Include="Entidades\Ventass.cs" />

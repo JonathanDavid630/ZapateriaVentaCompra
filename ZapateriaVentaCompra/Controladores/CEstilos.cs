@@ -10,13 +10,12 @@ namespace ZapateriaVentaCompra.Controladores
 {
     public class CLinea
     {
-        // Referencia al modelo
         MEstilo mEstilo = new MEstilo();
 
 
-        public void Insertar(Estiloss estiloss) //2 - Se recibe de la vista
+        public void Insertar(Estiloss estiloss) 
         {
-            mEstilo.Insertar(estiloss); // 3-  Se envía al modelo
+            mEstilo.Insertar(estiloss);
         }
 
         public void Actualizar(Estiloss estiloss)
@@ -38,7 +37,5 @@ namespace ZapateriaVentaCompra.Controladores
         {
             return mEstilo.ConsultarUno(id);
         }
-
-
     }
 }

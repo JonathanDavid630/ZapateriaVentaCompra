@@ -32,6 +32,14 @@ namespace ZapateriaVentaCompra.Entidades
             set { dui = value; }
         }
 
+        private int direccion;
+
+        public int Direccion
+        {
+            get { return direccion; }
+            set { direccion = value; }
+        }
+
         private string telefono;
 
         public string Telefono
@@ -48,22 +56,12 @@ namespace ZapateriaVentaCompra.Entidades
             set { email = value; }
         }
 
-        private string clave;
+        private int rol;
 
-        public string Clave
+        public int Rol
         {
-            get { return clave; }
-            set { clave = value; }
+            get { return rol; }
+            set { rol = value; }
         }
-
-        private int papels;
-
-        public int IdPapels_Fk
-        {
-            get { return papels; }
-            set { papels = value; }
-        }
-
-
     }
 }
